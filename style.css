@@ -1,0 +1,35 @@
+.menu {
+    background: #5f5e5e;
+    width: 250px;
+    padding: 10px 0;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding: 15px;
+    color: white;
+    background: #5f5e5e;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    background: slategray;
+}
+
+.menu li img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle; 
+    margin-right: 10px;
+}
+
+.menu li span {
+    display: inline-block; 
+    vertical-align: middle; 
+    font-size: 18px
+}
